@@ -16,6 +16,7 @@ toto = Toto::Server.new do
   #
   # Add your settings here
   # set [:setting], [value]
+  set :url,         'http://blogatmoon.herokuapp.com/'
   # 
   # set :author,    ENV['USER']                               # blog author
   # set :title,     Dir.pwd.split('/').last                   # site title
